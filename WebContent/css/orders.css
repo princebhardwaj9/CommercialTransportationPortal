@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;1,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Nunito Sans';
+	background: whitesmoke;
+}
+
+nav{
+	background: rgb(0, 95, 133);
+	display: flex;
+	justify-content: space-between;
+	border-radius: 3px;
+	align-items: center;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.logo{
+	padding: 10px 20px;
+	border-radius: 18%;
+	height: 50px;
+	width: 130px;
+}
+
+ul{
+	display: flex;
+}
+
+li{
+	list-style: none;
+	color: white;
+	padding-right: 20px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 800;
+	margin: 0px 10px;
+}
+
+a:hover{
+	color: rgb(192, 193, 194);
+}
+
+.table-div{
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 0px;
+	background: rgb(0, 95, 133);
+	border-radius: 4px;
+	margin: 8px 3px 25px 3px;
+}
+
+.body-div4{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 8px 0px 4px 0px;
+	background: rgb(43, 224, 215);
+	border-radius: 4px;
+	margin: 90px 3px 8px 3px;
+	text-align: center;
+	color: white;
+}
+
+.card-header{
+	background: rgb(55, 187, 180);
+	margin: 0px 5px 15px 5px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+.card-body img{
+	border-radius: 5px;
+}
+
+.card-title{
+	font-weight: bold;
+	font-style: oblique;
+	padding: 5px 0px 10px 0px;
+	animation-name: color;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 100ms;
+}
+
+@keyframes color {
+    0% {
+        color: rgb(180, 209, 133);
+    }
+
+    20% {
+        color: rgb(211, 248, 151);
+    }
+
+    40% {
+        color: rgb(200, 250, 119);
+    }
+
+    60% {
+        color: rgb(188, 255, 80);
+    }
+
+    80% {
+        color: rgb(170, 245, 51);
+    }
+
+    100% {
+        color: rgb(157, 255, 0);
+    }
+}
+
+.card-text{
+	font-family: "Sofia";
+	font-size: 22px;
+	padding: 0px 0px 10px 0px;
+	
+}
+
+.card-footer{
+	background: rgb(0, 138, 131);
+	margin: 0px 5px 0px 5px;
+	border-radius: 2px;
+	font-size: 12px;
+}
